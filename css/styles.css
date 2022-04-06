@@ -1,0 +1,130 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.title{
+  background-color: #ff4c68;
+  position: relative;
+}
+.title-img{
+  padding-top: 20px;
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 53%;
+}
+.features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.about{
+  text-align: center;
+  padding: 5%;
+}
+.heading{
+  font-family: 'Montserrat', sans-serif;
+}
+.honetwo{
+    line-height: 1.5;
+}
+.first-heading{
+  font-weight: 900;
+  font-size: 4rem;
+  color: white;
+}
+.htthree{
+   font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  padding-bottom:4.5rem;
+  padding-left: 0;
+  padding-right:0;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+
+}
+.fa-solid{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-solid:hover{
+  color:#ff4c68;
+}
+#Testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.test-img{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.fa-paw{
+  color: white;
+}
+.press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 25px 25px 60px;
+}
+#pricing{
+  padding:100Px;
+  text-align: center;
+}
+.pricing-colomn{
+  padding-left: 3%;
+ }
+.ff{
+  text-align: center;
+  padding: 7% 15%;
+}
+.fnote{
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: white;
+ }
+.ffnote{
+   background-color: #ff4c68;
+   }
+
+.fa-brands, .fa-envelope{
+   margin: 20px 10px;
+ }
+ @media (max-width: 1250px) {
+   .title{
+     text-align: center;
+   }
+   .title-img{
+     position: static;
+     transform: rotate(0);
+   }
+ }
